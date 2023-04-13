@@ -71,7 +71,7 @@ medium_df.columns = ['medium']
 medium_df
 
 high = data_forecast['Close'][data_forecast['Close'] > q2]
-st.title('values in high range')
+st.title('values in higher range')
 high_df = pd.DataFrame(high)
 high_df.columns = ['high']
 high_df
